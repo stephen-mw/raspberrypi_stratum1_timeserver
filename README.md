@@ -7,4 +7,4 @@ curl 'https://raw.githubusercontent.com/stephen-mw/raspberrypi_stratum1_timeserv
 ```
 
 # Requirements
-You must have a GPS chip attached to your raspberry pi. The installer assumes it's connected to GPIO pin 19. Change this value in the installer before running it.
+You must have a GPS chip attached to your raspberry pi. The installer assumes the GPS PPS pin is connected to GPIO18. Change this value in the installer before running it.
