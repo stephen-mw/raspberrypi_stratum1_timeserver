@@ -18,6 +18,7 @@ function install_required(){
 
     apt install -y      \
         asciidoctor     \
+	bison           \
         build-essential \
         chrpath         \
         curl            \
@@ -137,11 +138,15 @@ You must reboot before your system will work!
 
 To test the PPS pin:
 
-    $ ppstest /dev/pps0
+    $ sudo ppstest /dev/pps0
 
 To test your GPS lock:
 
     $ cgps
+
+To test chrony offsets:
+
+    $  chronyc tracking
 
 Good luck!
 
